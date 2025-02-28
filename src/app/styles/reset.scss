@@ -1,0 +1,45 @@
+:root{
+    --main-color: #124b3a;
+    --accent-color: #d6e2d1;
+    --gradient-color: linear-gradient(#588870, #346652, #124b3a);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    min-height: 100vh;
+    background: var(--gradient-color);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}

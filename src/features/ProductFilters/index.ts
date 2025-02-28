@@ -1,0 +1,1 @@
+export {default as ProductFilters} from './ui/ProductFilters.vue'
